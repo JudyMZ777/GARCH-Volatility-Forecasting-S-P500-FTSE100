@@ -13,9 +13,7 @@ Modelling S&P and FTSE using GARCH family!
 ### 2. Data Transformation
 - Prices converted into **log returns** in percentage terms:  
 
-  \[
-  r_t = 100 \cdot \ln\left(\frac{P_t}{P_{t-1}}\right)
-  \]  
+  r_t = 100 * log(P_t / P_{t-1})
 
 - Returns series prepared for modeling.  
 
